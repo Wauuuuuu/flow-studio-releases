@@ -1,0 +1,18 @@
+{
+  "schemaVersion": 1,
+  "version": "2.2.1",
+  "publishedAt": "2026-10-30T16:15:02.530Z",
+  "notes": "Flow Studio 2.2.1 · 线上更新接通\n\n- 接通 GitHub 公开发布区，启动后自动检查正式发布的新版本。\n- 可在项目首页或设置 → 通用 → 软件更新中手动检查、查看说明并下载对应系统的安装包。\n- 包含 2.2.0 的多 API 接入管理、节点独立选择渠道与模型、Agent 渠道设置，以及当前完整 Agent、画布、剪辑与服务端更新。\n\n首次请手动下载安装 2.2.1。2.2.0 及更早版本尚未配置线上地址，无法自动发现这次更新。后续只要正式发布新版，2.2.1 就能检查到。\n本次接通的是新版本提醒和下载，下载后仍需手动安装；不会在创作中自动覆盖或重启。\n\n平台：macOS 13.5+ Apple Silicon；Windows 10/11 x64。\n现阶段为开发构建：macOS 使用临时签名，未完成 Developer ID 签名及公证；Windows 未做正式代码签名，尚未完成 Windows 真机安装运行验收。\n画布、素材和 API 配置保留在本机；安装包不含用户资料或密钥。\n",
+  "platforms": {
+    "darwin-arm64": {
+      "url": "https://github.com/Wauuuuuu/flow-studio-releases/releases/download/v2.2.1/Flow-Studio-2.2.1-macOS-arm64.dmg",
+      "sha256": "3e8689daf4e423810f1889a420478d1bd47f6e904aea141dc40bbf42ca9f35e4",
+      "size": 644879331
+    },
+    "win32-x64": {
+      "url": "https://github.com/Wauuuuuu/flow-studio-releases/releases/download/v2.2.1/Flow-Studio-2.2.1-Windows-x64-Setup.exe",
+      "sha256": "3e598509dec57cdde147faa4ce185002b3a757c3ca0fb3e47e37152c1be2b64a",
+      "size": 690990034
+    }
+  }
+}
