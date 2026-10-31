@@ -1,12 +1,12 @@
 # Flow Studio · 桌面应用下载与更新
 
-本仓库用于 Flow Studio 的公开安装包、版本说明、SHA-256 校验与签名更新清单分发。
+本仓库用于公开安装包、版本说明、SHA-256 校验与签名更新清单分发。
 
 ## 下载
 
-请进入 [Releases](https://github.com/Wauuuuuu/flow-studio-releases/releases/latest) 下载最新正式版本。Mac 选择 arm64 DMG，Windows 选择 x64 Setup；ZIP 如有提供需完整解压后运行。
+请进入 [Releases](https://github.com/Wauuuuuu/flow-studio-releases/releases/latest) 下载最新正式版本。Mac 选择 arm64 DMG，Windows 选择 x64 Setup；ZIP 需完整解压后运行。
 
-2.3.4 正在上传，正式发布后包含 API 模型目录、自选显示/隐藏、参考与自定义单价和本机费用统计。2.3.1/2.3.2 用户需要手动安装接通版一次。画布、素材及 API 配置继续保存在本机。
+2.3.4 已正式发布，包含 API 模型目录、自选显示/隐藏、参考与自定义单价和本机费用统计。2.3.1/2.3.2 用户需要手动安装本版一次。画布、素材及 API 配置继续保存在本机。
 
 ## 更新与校验
 
