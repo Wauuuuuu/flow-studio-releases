@@ -1,20 +1,20 @@
 {
   "schemaVersion": 1,
-  "version": "2.3.4",
-  "publishedAt": "2026-10-31T07:24:29.422Z",
-  "notes": "Flow Studio 2.3.4\n\nAPI 管理支持从当前接口获取模型列表，搜索并自行选择显示或隐藏的模型。\n保留自定义模型 ID、模型显隐和手动设置的单价；节点及默认模型跟随可用目录。\n新增模型参考价格与自定义单价，支持输入、输出、缓存及按次、图片、秒计价。\n新增本机用量与费用统计，区分接口实报、估算及未知费用，按币种分别统计。\n价格匹配与模型可用性取决于接入渠道；未知价格不会按零费用统计。\n包含当前 Agent、画布、编辑器、服务端和桌面宿主全部更新。\n接通 GitHub 签名更新入口；发行仓库开放后可检查并下载后续更新。\n2.3.1/2.3.2 用户需手动安装本版一次，画布、素材和 API 配置继续保存在本机。\nWindows 已构建并检查包内文件，真机安装运行待验证。\n修复 GitHub 更新清单下载跳转兼容，跳转全程限制为无凭据 HTTPS。\n",
+  "version": "2.5.20",
+  "publishedAt": "2026-11-04T09:56:42.203Z",
+  "notes": "Flow Studio 2.5.20 · Luna\n\n- 素材准备节点改用节点自己选择的文本模型：检索规划、素材相关性筛选、口播与逐镜头脚本都由同一个模型完成，不再固定委派 Gemini。\n- 选择 Claude 时文案与筛选自动走 Anthropic 原生协议，选择其他文本模型走 Chat Completions，渠道不可用时按既有规则重试。\n- 素材包的元数据、进度提示与报错文案同步记录并显示实际使用的模型。\n- 修正模型列表显示：GPT 6.1 Terra 不再错标为 GPT 6.1 Sol。\n- 包含 2.5.19 的全部内容：默认模型下拉只列接入中勾选的模型、修复保存接入返回 400、清理不受支持的音频模型。\n",
   "platforms": {
     "darwin-arm64": {
-      "url": "https://github.com/Wauuuuuu/flow-studio-releases/releases/download/v2.3.4/Flow-Studio-2.3.4-macOS-arm64.dmg",
-      "sha256": "182f4cf6d25fc82dde31344b4e9db30414fd72be717a51e334da2f68d230f523",
-      "size": 646436834,
-      "signature": "dGMZJO33otypA0wOfWlYNWY/EFZN7GeFLt9chfGL6hr2QKuqBGzZxAPjJIkF5HiK8e1R2HIO4qLZHlgUHBLpDQ=="
+      "url": "https://github.com/Wauuuuuu/flow-studio-releases/releases/download/v2.5.20/Flow-Studio-2.5.20-macOS-arm64.dmg",
+      "sha256": "684f71fecd62df26790cea761b2dbe3265daacf2aa3b3bd4043f6ad2cf17337e",
+      "size": 640027080,
+      "signature": "RuYIC7C22L2GYVgBJbk+jCXh+5exL7UOW3y6NDBG5luhmhQP/Q2Buk4r/qtbdMaeo31MA41tvPf4C5xSWDy+BA=="
     },
     "win32-x64": {
-      "url": "https://github.com/Wauuuuuu/flow-studio-releases/releases/download/v2.3.4/Flow-Studio-2.3.4-Windows-x64-Setup.exe",
-      "sha256": "16bc3fc5cb45423847f00861577499b1bf2dfeb78541b177fac61aec7efdc482",
-      "size": 691022975,
-      "signature": "2E4UdplaPlkip+kBzTxPv1DslzmOioDHlu59Tv9zi1hqnOqtIoRkJVFfiuTKCeEEgwK/tZDxeZVQXBTMI1W2Ag=="
+      "url": "https://github.com/Wauuuuuu/flow-studio-releases/releases/download/v2.5.20/Flow-Studio-2.5.20-Windows-x64-Setup.exe",
+      "sha256": "bd7b1ad4b1e79f27923a50bdcacfa66720406ee77ef68dced9c74c0cbc96b2a0",
+      "size": 691452305,
+      "signature": "4RPAjYSzIsbu3cyjKkkGlr2fFEqyTtbRKu9ZB5Lzm0XAyGCL/7J9MU/h9TIIL0CfaZ6DWszoqI3zd6IFxz5RBA=="
     }
   }
 }
